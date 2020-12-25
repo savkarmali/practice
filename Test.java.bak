@@ -9,7 +9,7 @@ class Test {
 		
 		Test test=new Test();
 		test=null;
-//		test.finalize();
+
 		System.gc();
 	}
 }
