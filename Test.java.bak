@@ -5,12 +5,18 @@ class Test {
 		System.out.println("Object destroyed by the garbage collector");
 	}
 
+	private static void m2(){
+		System.out.print("M1 Method");
+	}
+
 	public static void main(String[] args) {
 		
-		Test test=new Test();
-		test=null;
+	m2();
 
-		System.gc();
+		Test test=new Test();
+//		test=null;
+
+//		System.gc();
 	}
 }
 
