@@ -14,9 +14,9 @@ class Test {
 	m2();
 
 		Test test=new Test();
-		test=null;
+//		test=null;
 
-		System.gc();
+//		System.gc();
 	}
 }
 
